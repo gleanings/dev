@@ -18,6 +18,8 @@ const dependencies = packageJson.dependencies;
   'packageManager',
   'private',
   'dependencies',
+  'jja',
+  'type',
 ].forEach(key => delete packageJson[key]);
 const esPrefix = 'es'; // es 前缀
 const cjsPrefix = 'cjs'; // cjs 前缀
@@ -85,7 +87,7 @@ for (const childrenName of srcChildrenList) {
 packageJson = {
   ...packageJson,
   main: cjsPrefix + '/index.js', // 旧版本 CommonJs 入口
-  module: esPrefix + '/index.js', // 旧版本 ESM 入口
+  // module: esPrefix + '/index.js', // 旧版本 ESM 入口
   types: dtsPrefix + '/index.d.ts', // 旧版本类型入口
   author: {
     name: '泥豆君',
