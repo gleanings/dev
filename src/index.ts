@@ -1,6 +1,6 @@
 import { DevConstructor } from './dev';
 
-const name = '@qqi/dev-log';
+const name = '@vvi/dev';
 /**
  * # 测试
  */

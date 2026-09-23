@@ -173,7 +173,7 @@ export default [
 
 
    // 4. 关闭 Prettier 冲突规则（必须，用 Prettier 时）
-  eslintConfigPrettier,
+  prettierConfig,
   //  5 文件特定覆盖
   {
     files: ['**/*.test.js', '**/*.spec.js'],

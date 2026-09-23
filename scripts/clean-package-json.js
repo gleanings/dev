@@ -111,7 +111,7 @@ packageJson = {
     },
   },
   keywords: ['dev', 'mudbean', 'vvi'],
-  homepage: 'https://npm.gleanings.cn/dev',
+  homepage: 'https://npms.gleanings.cn/dev',
   dependencies,
   bugs: {
     url: 'https://github.com/gleanings/dev/issues',
